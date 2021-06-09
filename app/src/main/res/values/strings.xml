@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Semana2</string>
+    <string name="nombre_boton">Siguiente</string>
+    <string name="nombre_usuario">Ingrese el nombre del usuario</string>
+    <string name="fecha_nacimiento">Ingrese su fecha de nacimiento</string>
+    <string name="telefono">Ingrese su número telefónico</string>
+    <string name="email">Ingrese su correo electrónico</string>
+    <string name="descripcion">Ingrese una descripción del usuario</string>
+    <string name="confirmar">Confirmar Datos</string>
+    <string name="aceptar_boton">Aceptar</string>
+    <string name="pnombre">Nombre</string>
+    <string name="ptelefono">Teléfono</string>
+    <string name="pemail">Email</string>
+    <string name="pdescipcion">Descripción</string>
+
+</resources>

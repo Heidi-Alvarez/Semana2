@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DatosConfirmacion">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmar"
+        android:text="@string/confirmar"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmarNombre"
+        android:layout_below="@id/confirmar"
+        android:text="Nombre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmarFechaNacimiento"
+        android:layout_below="@id/confirmarNombre"
+        android:text="Fecha de Nacimiento"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmarTelefono"
+        android:layout_below="@+id/confirmarFechaNacimiento"
+        android:text="Teléfono"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmarEmail"
+        android:layout_below="@+id/confirmarTelefono"
+        android:text="Email"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmarDescripcion"
+        android:layout_below="@+id/confirmarEmail"
+        android:text="Descripción"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonConfirmar"
+        android:layout_below="@+id/confirmarDescripcion"
+        android:text="@string/aceptar_boton"
+        android:onClick="Aceptar"
+        />
+
+
+
+</RelativeLayout>
